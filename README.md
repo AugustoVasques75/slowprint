@@ -7,10 +7,13 @@ The display can be vertically or horizontally.
 The text can also be displayed in the *yoyo* mode where after the last character is displayed the text is removed regressively by means of a fixed interval of time between the deletion of each character.
 
 ## Use:
-      slowprint ("Hello World my friend.", delay = 0.05, yoyo = True, vertical = True)
-      slowprint ("Hello World my friend.", delay = 0.05, yoyo = True, vertical = False)
-      slowprint ("Hello World my friend.", delay = 0.05, yoyo = False, vertical = True)
-      slowprint ("Hello World my friend.", delay = 0.05, yoyo = False, vertical = False)
+
+     from slprint.slowprint import slowprint
+
+     slowprint ("Hello World my friend.", delay = 0.05, yoyo = True, vertical = True)
+     slowprint ("Hello World my friend.", delay = 0.05, yoyo = True, vertical = False)
+     slowprint ("Hello World my friend.", delay = 0.05, yoyo = False, vertical = True)
+     slowprint ("Hello World my friend.", delay = 0.05, yoyo = False, vertical = False)
 
 ## Parameters:
 `text`  
