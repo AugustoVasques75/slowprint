@@ -22,6 +22,8 @@ On terminal just type:
      slowprint ("Hello World my friend.", delay = 0.05, yoyo = True, vertical = False)
      slowprint ("Hello World my friend.", delay = 0.05, yoyo = False, vertical = True)
      slowprint ("Hello World my friend.", delay = 0.05, yoyo = False, vertical = False)
+     
+[Test on Repl.it](https://repl.it/@RonaldoVasques/OddDutifulPacket)
 
 ## Parameters:
 `text`  
