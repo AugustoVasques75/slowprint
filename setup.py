@@ -1,21 +1,17 @@
 import setuptools
 
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+with open("README.rst", "r") as fh1:
+    long_description = fh1.read()
 	
-with open("LICENSE", "r") as fh:
-    license = fh.read()
-
 setuptools.setup(
-    name="slowprint-pkg-vasquessouza",
-    version="1.0",
+    name="slprint11-pkg",
+    version="1.1",
     author="Ronaldo Augusto Vasques de Souza",
     author_email="vasquessouza.75@gmail.com",
     description="Simple module to display a text with a time interval between each characters.",
     long_description=long_description,
-    long_description_content_type="text/markdown",
-	license=license,
+    #long_description_content_type="text/markdown",
     url="https://github.com/RonaldoVasques/slowprint",
     packages=setuptools.find_packages(),
     classifiers=[
