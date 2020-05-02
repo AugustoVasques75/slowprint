@@ -6,6 +6,14 @@ The module has only one function called `slowprint ()` that imposes a fixed time
 The display can be vertically or horizontally.  
 The text can also be displayed in the *yoyo* mode where after the last character is displayed the text is removed regressively by means of a fixed interval of time between the deletion of each character.
 
+## Instalation:
+
+You can find it in the repository at The Python Package Index on https://pypi.org/project/slprint11-pkg/
+
+On terminal just type:
+
+     pip install slprint11-pkg
+
 ## Use:
 
      from slprint.slowprint import slowprint
